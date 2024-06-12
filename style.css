@@ -1,0 +1,18 @@
+.pricing {
+  width: 80%;
+}
+.pricing__title {
+  font-size: 2rem;
+}
+.pricing__subtitle {
+  font-size: 0.9rem;
+}
+.pricing__pricingArticle {
+  padding: 1em;
+}
+.pricing__pricingArticle__title {
+  margin-bottom: 2em;
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
