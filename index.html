@@ -3,15 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Devops</title>
+    <title></title>
+    <link rel="stylesheet" href="styles.scss"/>
 </head>
 <body>
     <header>
         <h1>Title</h1>
     </header>
-    <section>
-        <h2>Precios</h2>
-        <h4>Los mejores precios del mercado</h4>
+    <section class="pricing">
+        <h2 class="pricing__title">Precios</h2>
+        <h4 class="priting__subtitle">Los mejores precios del mercado</h4>
+
+        <div class="pricing__pricingArticle pricing__pricingArticle--basico">
+            <h6 class="pricingArticle__title"> Método básico</h6>
+            <ul class="pricingArticle__CompanyList">
+                <li class="pricingArticle__CompanyList__item">Raul</li>
+                <li class="pricingArticle__CompanyList__item">David</li>
+            </ul>
+        </div>
+
+        <div class="pricing__pricingArticle pricing__pricingArticle--profesional">
+            <h6 class="pricingArticle__title"> Método profesional</h6>
+            <ul class="pricingArticle__CompanyList">
+                <li class="pricingArticle__CompanyList__item">Oxygen</li>
+                <li class="pricingArticle__CompanyList__item">Héctor</li>
+            </ul>
+        </div>
     </section>
 </body>
 </html>

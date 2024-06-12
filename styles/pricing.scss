@@ -1,0 +1,23 @@
+.pricing{
+    width: 80%;
+    &__title{
+        font-size: 2rem;
+    }
+    &__subtitle{
+        font-size: .9rem;
+    }
+    &__pricingArticle{
+        padding: 1em;
+
+        &--basico{
+            border-color: red;
+        }
+        &--profesional {
+            border-color: blue;
+        }
+        &__title{
+            margin-bottom: 2em;
+            font-size: 1rem;
+        }
+    }
+}
