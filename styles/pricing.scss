@@ -8,6 +8,13 @@
     }
     &__pricingArticle{
         padding: 1em;
+
+        &--basico{
+            border-color: red;
+        }
+        &--profesional {
+            border-color: blue;
+        }
         &__title{
             margin-bottom: 2em;
             font-size: 1rem;
